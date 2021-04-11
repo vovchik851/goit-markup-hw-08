@@ -1,0 +1,56 @@
+.contact-form {
+  margin-left: auto;
+  &__headinng {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-fonts-dark-background);
+  }
+
+  &__email-contact-input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    color: var(--color-fonts-dark-background);
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+    margin-right: 12px;
+    padding: 15px;
+    width: 360px;
+    height: 50px;
+    background-color: var(--color-background);
+  }
+  &__button {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border: 1px;
+    background-color: var(--accent-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: var(--accent-color);
+    font-size: 16px;
+    line-height: 1.87;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  &__icone-send {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  margin: 0 auto;
+  background-color: var(--color-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .container {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+  }
+}
