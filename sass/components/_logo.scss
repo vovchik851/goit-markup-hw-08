@@ -31,10 +31,10 @@
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 88px;
-    /*&_contakt {
+    &_contakt {
       text-align: center;
-    margin-bottom: 20px;
-    }*/
+      margin-bottom: 20px;
+    }
   }
 }
 @media screen and (min-width: 1200px) {
@@ -45,8 +45,8 @@
     color: var(--first-color-fonts);
     margin-right: 93px;
     &_contakt {
-      /*text-align: center;
-    margin-bottom: 20px;*/
+      text-align: center;
+      margin-bottom: 20px;
       font-size: 26px;
       line-height: 1.19;
     }

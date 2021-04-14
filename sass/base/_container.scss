@@ -9,19 +9,6 @@
   }
 }
 
-.contact {
-  background-color: var(--color-background);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  /*.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0 auto;
-    align-items: baseline;*/
-}
-
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -32,6 +19,14 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    .contact & {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-left: 0 auto;
+      align-items: baseline;
+    }
   }
 }
 
@@ -40,15 +35,3 @@
     width: 1200px;
   }
 }
-/*.contact {
-  margin: 0 auto;
-  background-color: var(--color-background);
-  padding-top: 60px;
-  padding-bottom: 60px;
-  .container {
-    display: flex;
-    align-items: center;
-    align-items: baseline;
-  }
-}
-*/
