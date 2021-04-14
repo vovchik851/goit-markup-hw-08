@@ -1,7 +1,4 @@
 .contact-form {
-  display: block;
-  align-items: center;
-  justify-content: center;
   &__headinng {
     font-weight: 700;
     font-size: 14px;
@@ -12,6 +9,8 @@
   }
 
   &__email-contact-input {
+    display: block;
+    align-items: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
@@ -24,7 +23,7 @@
     margin-top: 20px;
     margin-right: 15px;
     padding: 15px;
-    width: 450px;
+    width: 100%;
     height: 50px;
     background-color: var(--color-background);
   }
@@ -46,6 +45,7 @@
     padding-top: 10px;
     padding-right: 28px;
     padding-bottom: 10px;
+    margin-top: 20px;
     align-items: center;
     letter-spacing: 0.06em;
     color: #ffffff;

@@ -1,3 +1,11 @@
+@media screen and (max-width: 479px) {
+  .clients {
+    &-list {
+      justify-content: center;
+    }
+  }
+}
+
 .clients {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -43,7 +51,9 @@
 @media screen and (min-width: 768px) {
   .clients {
     &-list {
+      margin-left: calc(-1 * var(--card-indent));
       &__link {
+        margin-left: var(--card-indent);
         flex-basis: calc(100% / 3 - var(--card-indent));
         min-width: 226px;
       }
