@@ -731,9 +731,6 @@ img {
   border-radius: 50%;
   fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list__link:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -799,19 +796,11 @@ img {
   .contact-social__list {
     justify-content: space-between;
   }
-  .contact-social__list-link {
-    margin-right: 10px;
-    margin-bottom: 60px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .contact-social__list {
     justify-content: space-between;
-  }
-  .contact-social__list-link {
-    margin-right: 10px;
-    margin-bottom: 60px;
   }
 }
 
