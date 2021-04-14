@@ -1,4 +1,67 @@
-.contact {
+.contact-list__link-address {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.71;
+  /*isplay: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;*/
+  letter-spacing: 0.03em;
+  color: var(--color-fonts-dark-background);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contact-list__link {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 8px;
+  /*display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+  &:not(:last-child) {
+    margin-top: 8px;
+  }*/
+  letter-spacing: 0.03em;
+  color: var(--second-color-fonts);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contact-social {
+  margin-left: 0 auto;
+  /*width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  */
+  &__head {
+    display: block;
+    text-align: center;
+    /*display: block;
+    text-align: center;
+    margin-top: 60px;*/
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-fonts-dark-background);
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+/*.contact {
   display: block;
   text-align: center;
   &-list__link-address {
