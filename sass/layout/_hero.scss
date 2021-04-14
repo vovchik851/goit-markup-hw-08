@@ -3,77 +3,46 @@
   margin: 0 auto;
   padding-top: 118px;
   padding-bottom: 118px;
+  max-width: 420px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/bg/mobil-hero1x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
-  @media screen and (min-width: 480px) {
-    max-width: 768px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url('./images/bg/mobil-hero1x.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url('../images/bg/mobil-hero2x.jpg');
+    }
   }
-  @media screen and (min-width-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url('../images/bg/mobil-hero2x.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  @media (min-width: 480px) {
+    & {
+      background-image: url('../images/bg/tab-hero1x.jpg');
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url('../images/bg/tab-hero2x.jpg');
+      }
+    }
   }
-  @media screen and (min-width: 481px) {
-    max-width: 768px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url('../images/bg/tab-hero1x.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url('../images/bg/tab-hero2x.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  @media screen and (min-width: 769px) {
-    max-width: 1200px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url('../images/bg/desctop-hero1x.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url('../images/bg/desctop-hero2x.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  @media (min-width: 768px) {
+    & {
+      background-image: url('../images/bg/desctop-hero1x.jpg');
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url('../images/bg/desctop-hero2x.jpg');
+      }
+    }
   }
 
   &__title {

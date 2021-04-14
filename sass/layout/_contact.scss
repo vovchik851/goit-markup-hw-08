@@ -69,13 +69,14 @@
   }
   .contact-list__link-address {
     display: block;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
     line-height: 2;
   }
   .contact-list__link {
     font-size: 14px;
     line-height: 2;
+    text-align: left;
   }
   .contact-social {
     &__head {
