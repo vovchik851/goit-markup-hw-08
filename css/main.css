@@ -198,6 +198,7 @@ img {
   visibility: hidden;
   pointer-events: none;
   position: fixed;
+  z-index: 2;
   top: 0;
   left: 50%;
   width: 100vw;
@@ -1056,15 +1057,14 @@ img {
 }
 
 .galery {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .galery__head-list {
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
@@ -1084,6 +1084,7 @@ img {
   padding-bottom: 10px;
   padding-left: 22px;
   padding-right: 22px;
+  margin-bottom: 15px;
   border-color: var(--color-fonts-dark-background);
   border-width: 0px;
   background: var(--color-background-secton-team);
@@ -1105,6 +1106,12 @@ img {
   background-color: var(--accent-color);
 }
 
+@media screen and (max-width: 767px) {
+  .galery-list__img {
+    width: 100%;
+  }
+}
+
 .galery-list {
   display: flex;
   flex-wrap: wrap;
@@ -1112,10 +1119,14 @@ img {
   margin-left: calc(-1 * var(--card-indent));
 }
 
+.galery-list__img {
+  z-index: -1;
+}
+
 .galery-list__item {
   margin-top: var(--card-indent);
   margin-left: var(--card-indent);
-  flex-basis: calc(100% / 3 - var(--card-indent));
+  flex-basis: calc(100% / 1 - var(--card-indent));
 }
 
 .galery-list__href-card {
@@ -1173,6 +1184,36 @@ img {
 .galery-list__href-card:hover .overlay__text,
 .galery-list__href-card:focus .overlay__text {
   transform: translateY(0%);
+}
+
+@media screen and (min-width: 768px) {
+  .galery {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .galery__head-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .galery__head-bytton {
+    margin-bottom: 0px;
+  }
+  .galery-list__item {
+    flex-basis: calc(100% / 2 - var(--card-indent));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .galery {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .galery-list__item {
+    flex-basis: calc(100% / 3 - var(--card-indent));
+  }
 }
 
 .backdrop {
