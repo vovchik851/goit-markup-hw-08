@@ -172,18 +172,31 @@
                 <h2 class="work-heading">Чем мы занимаемся</h2>
                 <ul class="work-list list">
                     <li class="work-list__item">
-                        <img class="work-list__img" src="./images/works/img_1.jpg" alt="Разработка сайтов" width="370"
-                        height="294">
+                        <picture>
+                            <source srcset="./images/works/work1-1x.webp 1x, ./images/works/work1-2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/works/work1-1x.jpg 1x, ./images/works/work1-2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                                <img class="work-list__img" src="./images/works/work1-1x.jpg" alt="Разработка сайтов">
+                        </picture>
                         <p class="work-list__title">Десктопные приложения</p>
                     </li>
                     <li class="work-list__item">
-                        <img class="work-list__img" src="./images/works/img_2.jpg" alt="Разработка мобильных приложений"
-                        width="370" height="294">
+                        <picture>
+                        <source srcset="./images/works/work2-1x.webp 1x, ./images/works/work2-2x.webp 2x" media="(min-width: 1200px)"
+                            type="image/webp">
+                        <source srcset="./images/works/work2-1x.jpg 1x, ./images/works/work2-2x.jpg 2x" media="(min-width: 1200px)">
+                        <img class="work-list__img" src="./images/works/work2-1x.jpg" alt="Разработка мобильных приложений">
+                        </picture>
                         <p class="work-list__title">Мобильные приложения</p>
                     </li>
                     <li class="work-list__item">
-                        <img class="work-list__img" src="./images/works/img_3.jpg" alt="Разработка дизайна" width="370"
-                        height="294">
+                        <picture>
+                            <source srcset="./images/works/work3-1x.webp 1x, ./images/works/work3-2x.webp 2x" media="(min-width: 1200px)"
+                                type="image/webp">
+                            <source srcset="./images/works/work3-1x.jpg 1x, ./images/works/work3-2x.jpg 2x" media="(min-width: 1200px)">
+                            <img class="work-list__img" src="./images/works/work3-1x.jpg" alt="Разработка дизайна">
+                        </picture>
                         <p class="work-list__title">Дизайнерские решения'</p>
                     </li>
                 </ul>
@@ -452,7 +465,7 @@
         </section>
     </main>
     <!--CONTACT INFORMATION-->
-    <!--<footer class="contact">
+    <footer class="contact">
         <div class="container">
             <div class="contact-container">
                 <a class="logo_contakt link" lang="en" href="WebStudio" target="_blank"><span
@@ -520,7 +533,7 @@
                 </form>
             </div>
         </div>
-    </footer>-->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__close-button" data-modal-close> 

@@ -9,6 +9,18 @@
   }
 }
 
+.contact {
+  background-color: var(--color-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -28,8 +40,7 @@
     justify-content: none;
   }
 }
-/*
-.contact {
+/*.contact {
   margin: 0 auto;
   background-color: var(--color-background);
   padding-top: 60px;
@@ -39,4 +50,5 @@
     align-items: center;
     align-items: baseline;
   }
-}*/
+}
+*/
