@@ -731,10 +731,8 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .team-item__img {
-    width: 100%;
-  }
+.team-item__img {
+  width: 100%;
 }
 
 .card-team {
@@ -1001,8 +999,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .contact-social {
-    width: 206px;
-    height: 80px;
+    display: block;
     margin-left: 165px;
   }
 }
