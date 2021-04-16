@@ -9,7 +9,6 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
     text-align: center;
   }
   &-list {
@@ -40,6 +39,14 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+  .team {
+    &-heading {
+      padding-bottom: 30px;
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   .team {
     &-item {
@@ -59,6 +66,9 @@
 }
 @media screen and (min-width: 768px) {
   .team {
+    &-heading {
+      margin-bottom: 30px;
+    }
     &-list {
       display: flex;
       flex-wrap: wrap;

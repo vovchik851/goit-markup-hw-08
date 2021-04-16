@@ -33,7 +33,6 @@
     color: var(--color-fonts-dark-background);
     border-radius: 4px;
     outline: none;
-    margin-right: 12px;
     padding: 15px;
     margin-bottom: 20px;
     width: 100%;
@@ -66,9 +65,13 @@
 
 @media screen and (min-width: 768px) {
   .contact-form {
+    &__email-input-field {
+      margin-right: 12px;
+    }
     &__email-contact-input {
       width: 100%;
       max-width: 450px;
+      margin-bottom: 20px;
     }
   }
 }
