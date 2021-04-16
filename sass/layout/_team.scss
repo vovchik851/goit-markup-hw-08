@@ -9,7 +9,7 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     text-align: center;
   }
   &-list {
@@ -81,7 +81,7 @@
     &-heading {
       font-size: 36px;
       line-height: 1.16;
-      padding-bottom: 50px;
+      margin-bottom: 50px;
     }
     &-item {
       flex-basis: calc(100% / 4 - var(--card-indent));
