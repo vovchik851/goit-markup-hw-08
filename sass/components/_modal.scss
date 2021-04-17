@@ -41,14 +41,14 @@
   visibility: hidden;
   pointer-events: none;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 380px) {
   .modal {
     width: 100%;
     padding: 20px;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 381px) {
   .modal {
     width: 450px;
     height: 609px;

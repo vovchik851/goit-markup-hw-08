@@ -2,6 +2,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 24px;
+  padding: 13px 0;
   line-height: 1.16;
   display: block;
   color: var(--first-color-fonts);
@@ -31,6 +32,7 @@
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 88px;
+    padding: 26px 0;
     &_contakt {
       text-align: center;
       margin-bottom: 20px;
@@ -41,7 +43,6 @@
   .logo {
     font-size: 26px;
     line-height: 1.19;
-    padding: 24px 0;
     color: var(--first-color-fonts);
     margin-right: 93px;
     &_contakt {

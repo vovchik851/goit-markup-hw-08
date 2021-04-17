@@ -144,8 +144,12 @@
       &__item {
         flex-basis: calc(100% / 2 - var(--card-indent));
       }
-      &__card {
-        width: 306px;
+      &__name {
+        color: var(--first-color-fonts);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
       }
     }
   }
