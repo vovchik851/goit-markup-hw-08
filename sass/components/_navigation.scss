@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+  .mobile-menu {
+    max-width: 100%;
+  }
+}
+
 .mobile-menu {
   opacity: 0;
   visibility: hidden;
@@ -28,8 +34,6 @@
   z-index: 2;
   top: 0;
   left: 50%;
-  width: 100vw;
-  max-width: 480px;
   height: 100vh;
   transform: translateX(-50%);
   background-color: var(--color-fonts-dark-background);
@@ -131,6 +135,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-menu {
+    max-width: 100%;
+  }
   .menu__burger {
     display: none;
   }

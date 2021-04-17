@@ -69,7 +69,6 @@
     }
   }
 }
-
 .modal-form__check-desc {
   font-weight: 400;
   font-size: 12px;
@@ -130,6 +129,15 @@
   &:focus {
     background-color: var(--accent-color);
     color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .modal-form__check-desc {
+    font-size: 8px;
+    &-link {
+      font-size: 8px;
+    }
   }
 }
 
