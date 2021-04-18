@@ -33,10 +33,14 @@
   }
 }
 
-.contact-social {
-  margin-left: 0 auto;
-  margin-top: 60px;
+@media screen and (max-width: 1199px) {
+  .contact-social {
+    margin-left: 0 auto;
+    margin-top: 60px;
+  }
+}
 
+.contact-social {
   &__head {
     display: block;
     text-align: center;

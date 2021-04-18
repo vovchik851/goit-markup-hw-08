@@ -217,6 +217,8 @@
 
 @media screen and (max-width: 1199px) {
   .mail-tel {
+    padding-top: 21px;
+    padding-bottom: 21px;
     &__link {
       display: flex;
       align-items: center;
@@ -227,12 +229,6 @@
       color: var(--second-color-fonts);
       fill: var(--second-color-fonts);
       transition: colo;
-      &:not(:last-child) {
-        padding-top: 21px;
-      }
-      &:not(:first-child) {
-        padding-bottom: 21px;
-      }
     }
     &__item:not(:last-child) {
       margin-bottom: 10px;
@@ -256,17 +252,17 @@
 
   .mail-tel {
     &__item {
-      padding-top: 32px;
-      padding-bottom: 32px;
       &:not(:last-child) {
         margin-right: 30px;
       }
     }
-  }
-  &__link {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    line-height: 1.14;
+    &__link {
+      padding-top: 32px;
+      padding-bottom: 32px;
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      line-height: 1.14;
+    }
   }
 }

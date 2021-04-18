@@ -1,9 +1,9 @@
 .hero {
   background-color: var(--color-background);
   margin: 0 auto;
+  max-width: 1600px;
   padding-top: 118px;
   padding-bottom: 118px;
-  max-width: 420px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -55,7 +55,6 @@
   }
   @media (min-width: 768px) {
     & {
-      max-width: 1600px;
       background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
@@ -69,7 +68,6 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        max-width: 1600px;
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
@@ -120,7 +118,6 @@
 }
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 1200px;
     &__title {
       margin-bottom: 30px;
       padding-left: 189px;
@@ -131,7 +128,6 @@
 
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     &__title {

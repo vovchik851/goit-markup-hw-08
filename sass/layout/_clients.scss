@@ -74,7 +74,7 @@
     }
     &-list {
       &__item {
-        flex-basis: calc(100% / 3 - var(--card-indent));
+        flex-basis: calc(100% / 6 - var(--card-indent));
       }
       &__link {
         min-width: 170px;

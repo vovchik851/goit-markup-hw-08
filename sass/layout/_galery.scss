@@ -142,7 +142,20 @@
     }
     &-list {
       &__item {
+        display: flex;
         flex-basis: calc(100% / 2 - var(--card-indent));
+      }
+      &__href-card {
+        display: flex;
+        flex-direction: column;
+      }
+      &__card {
+        flex-grow: 1;
+        box-sizing: border-box;
+        background-color: #fff;
+        padding: 20px 24px 20px 24px;
+        border: 1px solid #eeeeee;
+        border-top: none;
       }
       &__name {
         color: var(--first-color-fonts);
