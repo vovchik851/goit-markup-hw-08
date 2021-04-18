@@ -3,20 +3,20 @@
   padding-top: 60px;
   padding-bottom: 60px;
   &-heading {
-    display: block;
     font-weight: 700;
     font-size: 28px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    text-align: center;
-  }
-  &-list {
-    margin-top: calc(-1 * var(--card-indent));
+    margin-bottom: 30px;
   }
   &-item {
-    margin-top: var(--card-indent);
-    flex-basis: calc(100% / 1 - var(--card-indent));
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+    &__img {
+      width: 100%;
+    }
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -39,22 +39,6 @@
   }
 }
 
-@media screen and (max-width: 479px) {
-  .team {
-    &-heading {
-      padding-bottom: 30px;
-    }
-  }
-}
-
-.team {
-  &-item {
-    &__img {
-      width: 100%;
-    }
-  }
-}
-
 .card-team {
   background: #ffffff;
   border-radius: 4px;
@@ -71,11 +55,18 @@
     &-list {
       display: flex;
       flex-wrap: wrap;
+      margin-top: calc(-1 * var(--card-indent));
       margin-left: calc(-1 * var(--card-indent));
+      
     }
     &-item {
-      flex-basis: calc(100% / 2 - var(--card-indent));
+      margin-bottom: 0px;
+      margin-top: var(--card-indent);
       margin-left: var(--card-indent);
+      flex-basis: calc(100% / 2 - var(--card-indent));
+      &:not(:last-child) {
+      margin-bottom: 0px;
+    }
     }
   }
 }
